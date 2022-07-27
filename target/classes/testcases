@@ -1,0 +1,10 @@
+1.Radio Button Example:Click on the radio button and verify the it is selected or not   //Done
+2.Suggestion Class Example: Enter the partial country name and select the country name from the Suggestion //Done
+3.Dropdown Example:Click on the dropdown and select one option from the dropdown  //done
+4.Checkbox: Select one checkbox and verify the checkbox is selected//done
+5.Switch Window: Switch to new window and get the selenium course rating and move back to practice window //done
+6.Switch Tab: Click on new tab and move back to practice window//done
+7.Switch To: verify the alert and confirm buttons //Done
+8.Element Displayed: Verify the hide and show buttons//done   
+9.Web Table: Get the prices of the courses and sum the all courses//done
+10.Web Table Fixed:Get the total amount and compare with Total Amount Collected//done

@@ -1,0 +1,4 @@
+08:46:56.363 [main] INFO  tesngframework.HomePage - Driver is intialized
+08:47:01.288 [main] INFO  tesngframework.HomePage - Login is successful 
+08:47:22.487 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+08:47:23.089 [main] INFO  tesngframework.HomePage - browser closed successful 
