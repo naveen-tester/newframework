@@ -24,7 +24,7 @@ public class loginPage {
 	private By suggetionbox=By.id("autocomplete");
 	private By suggetions=By.className("ui-menu-item");
 	private By dropdown=By.id("dropdown-class-example");
-	private By checkBox1=By.id("failcheckBoxOption1");
+	private By checkBox1=By.id("checkBoxOption1");
 	
 	public WebElement getYourName() {
 		return driver.findElement(yourName);

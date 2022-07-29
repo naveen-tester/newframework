@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-23T08:46:50 IST" name="Suite" finished-at="2022-07-23T08:47:23 IST" duration-ms="32671">
+  <suite started-at="2022-07-29T16:52:23 IST" name="Suite" finished-at="2022-07-29T16:53:14 IST" duration-ms="50836">
     <groups>
     </groups>
-    <test started-at="2022-07-23T08:46:50 IST" name="Test" finished-at="2022-07-23T08:47:23 IST" duration-ms="32671">
-      <class name="tesngframework.HomePage">
-        <test-method is-config="true" signature="intilizeBrowser()[pri:0, instance:tesngframework.HomePage@2cd2c8fe]" started-at="2022-07-23T08:46:50 IST" name="intilizeBrowser" finished-at="2022-07-23T08:46:56 IST" duration-ms="5943" status="PASS">
+    <test started-at="2022-07-29T16:52:23 IST" name="Test" finished-at="2022-07-29T16:53:14 IST" duration-ms="50836">
+      <class name="tesngframework.Windows">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:tesngframework.Windows@53fe15ff]" started-at="2022-07-29T16:52:30 IST" name="initilizeBrowser" finished-at="2022-07-29T16:52:31 IST" duration-ms="1513" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- intilizeBrowser -->
-        <test-method signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:tesngframework.HomePage@2cd2c8fe]" started-at="2022-07-23T08:46:56 IST" name="loginPage" data-provider="getData" finished-at="2022-07-23T08:47:01 IST" duration-ms="4901" status="PASS">
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:tesngframework.Windows@53fe15ff]" started-at="2022-07-29T16:52:31 IST" name="loginPage" data-provider="getData" finished-at="2022-07-29T16:52:37 IST" duration-ms="5958" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,94 +27,73 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method signature="suggetionBox()[pri:0, instance:tesngframework.HomePage@2cd2c8fe]" started-at="2022-07-23T08:47:01 IST" name="suggetionBox" finished-at="2022-07-23T08:47:02 IST" duration-ms="764" status="PASS">
+        <test-method signature="verifyAlert()[pri:0, instance:tesngframework.Windows@53fe15ff]" started-at="2022-07-29T16:52:37 IST" name="verifyAlert" finished-at="2022-07-29T16:52:38 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlert -->
+        <test-method signature="OpenTab()[pri:0, instance:tesngframework.Windows@53fe15ff]" started-at="2022-07-29T16:52:38 IST" name="OpenTab" finished-at="2022-07-29T16:52:38 IST" depends-on-methods="tesngframework.Windows.loginPage" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenTab -->
+        <test-method signature="SumOfCoursePrice()[pri:0, instance:tesngframework.Windows@53fe15ff]" started-at="2022-07-29T16:52:38 IST" name="SumOfCoursePrice" finished-at="2022-07-29T16:52:38 IST" depends-on-methods="tesngframework.Windows.loginPage" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SumOfCoursePrice -->
+        <test-method signature="VerifyTheElementDisplayed()[pri:0, instance:tesngframework.Windows@53fe15ff]" started-at="2022-07-29T16:52:38 IST" name="VerifyTheElementDisplayed" finished-at="2022-07-29T16:52:38 IST" depends-on-methods="tesngframework.Windows.loginPage" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheElementDisplayed -->
+        <test-method signature="VerifyTotalAmount()[pri:0, instance:tesngframework.Windows@53fe15ff]" started-at="2022-07-29T16:52:38 IST" name="VerifyTotalAmount" finished-at="2022-07-29T16:52:39 IST" depends-on-methods="tesngframework.Windows.loginPage" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalAmount -->
+        <test-method signature="openWindow()[pri:0, instance:tesngframework.Windows@53fe15ff]" started-at="2022-07-29T16:52:39 IST" name="openWindow" finished-at="2022-07-29T16:53:05 IST" depends-on-methods="tesngframework.Windows.loginPage" duration-ms="26171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tesngframework.Windows@53fe15ff]" started-at="2022-07-29T16:53:13 IST" name="closeBrowser" finished-at="2022-07-29T16:53:14 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tesngframework.Windows -->
+      <class name="tesngframework.HomePage">
+        <test-method is-config="true" signature="intilizeBrowser()[pri:0, instance:tesngframework.HomePage@410ae9a3]" started-at="2022-07-29T16:52:23 IST" name="intilizeBrowser" finished-at="2022-07-29T16:52:30 IST" duration-ms="6800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilizeBrowser -->
+        <test-method signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:tesngframework.HomePage@410ae9a3]" started-at="2022-07-29T16:53:05 IST" name="loginPage" data-provider="getData" finished-at="2022-07-29T16:53:11 IST" duration-ms="6382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seleniumnaveen570@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="suggetionBox()[pri:0, instance:tesngframework.HomePage@410ae9a3]" started-at="2022-07-29T16:53:11 IST" name="suggetionBox" finished-at="2022-07-29T16:53:12 IST" duration-ms="961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggetionBox -->
-        <test-method signature="CheckBox()[pri:0, instance:tesngframework.HomePage@2cd2c8fe]" started-at="2022-07-23T08:47:02 IST" name="CheckBox" finished-at="2022-07-23T08:47:22 IST" depends-on-methods="tesngframework.HomePage.loginPage" duration-ms="20035" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#failcheckBoxOption1"}
-  (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'DESKTOP-1LKOS4U', ip: '192.168.0.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [37d5a0724740598443c229c29f08b58a, findElement {using=id, value=failcheckBoxOption1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 37d5a0724740598443c229c29f08b58a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#failcheckBoxOption1"}
-  (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'DESKTOP-1LKOS4U', ip: '192.168.0.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [37d5a0724740598443c229c29f08b58a, findElement {using=id, value=failcheckBoxOption1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 37d5a0724740598443c229c29f08b58a
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at pageObjects.loginPage.getCheckBox1(loginPage.java:60)
-at tesngframework.HomePage.CheckBox(HomePage.java:78)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="CheckBox()[pri:0, instance:tesngframework.HomePage@410ae9a3]" started-at="2022-07-29T16:53:12 IST" name="CheckBox" finished-at="2022-07-29T16:53:12 IST" depends-on-methods="tesngframework.HomePage.loginPage" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckBox -->
-        <test-method signature="DropDown()[pri:0, instance:tesngframework.HomePage@2cd2c8fe]" started-at="2022-07-23T08:47:22 IST" name="DropDown" finished-at="2022-07-23T08:47:22 IST" depends-on-methods="tesngframework.HomePage.loginPage" duration-ms="63" status="PASS">
+        <test-method signature="DropDown()[pri:0, instance:tesngframework.HomePage@410ae9a3]" started-at="2022-07-29T16:53:12 IST" name="DropDown" finished-at="2022-07-29T16:53:12 IST" depends-on-methods="tesngframework.HomePage.loginPage" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DropDown -->
-        <test-method signature="radioButton()[pri:0, instance:tesngframework.HomePage@2cd2c8fe]" started-at="2022-07-23T08:47:22 IST" name="radioButton" finished-at="2022-07-23T08:47:22 IST" depends-on-methods="tesngframework.HomePage.loginPage" duration-ms="59" status="PASS">
+        <test-method signature="radioButton()[pri:0, instance:tesngframework.HomePage@410ae9a3]" started-at="2022-07-29T16:53:12 IST" name="radioButton" finished-at="2022-07-29T16:53:12 IST" depends-on-methods="tesngframework.HomePage.loginPage" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioButton -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tesngframework.HomePage@2cd2c8fe]" started-at="2022-07-23T08:47:22 IST" name="closeBrowser" finished-at="2022-07-23T08:47:23 IST" duration-ms="609" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tesngframework.HomePage@410ae9a3]" started-at="2022-07-29T16:53:12 IST" name="closeBrowser" finished-at="2022-07-29T16:53:13 IST" duration-ms="623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
