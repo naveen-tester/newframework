@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48233" started-at="2022-08-01T07:48:28 IST" finished-at="2022-08-01T07:49:16 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48233" started-at="2022-08-01T07:48:28 IST" finished-at="2022-08-01T07:49:16 IST">
+      <class name="tesngframework.Windows">
+        <test-method status="PASS" signature="initilizeBrowser()[pri:0, instance:tesngframework.Windows@91e32e]" name="initilizeBrowser" is-config="true" duration-ms="1216" started-at="2022-08-01T07:48:41 IST" finished-at="2022-08-01T07:48:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:tesngframework.Windows@91e32e]" name="loginPage" duration-ms="5113" started-at="2022-08-01T07:48:43 IST" data-provider="getData" finished-at="2022-08-01T07:48:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seleniumnaveen570@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="verifyAlert()[pri:0, instance:tesngframework.Windows@91e32e]" name="verifyAlert" duration-ms="464" started-at="2022-08-01T07:48:48 IST" finished-at="2022-08-01T07:48:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlert -->
+        <test-method status="PASS" signature="OpenTab()[pri:0, instance:tesngframework.Windows@91e32e]" name="OpenTab" duration-ms="78" started-at="2022-08-01T07:48:48 IST" depends-on-methods="tesngframework.Windows.loginPage" finished-at="2022-08-01T07:48:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenTab -->
+        <test-method status="PASS" signature="SumOfCoursePrice()[pri:0, instance:tesngframework.Windows@91e32e]" name="SumOfCoursePrice" duration-ms="241" started-at="2022-08-01T07:48:48 IST" depends-on-methods="tesngframework.Windows.loginPage" finished-at="2022-08-01T07:48:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SumOfCoursePrice -->
+        <test-method status="PASS" signature="VerifyTheElementDisplayed()[pri:0, instance:tesngframework.Windows@91e32e]" name="VerifyTheElementDisplayed" duration-ms="61" started-at="2022-08-01T07:48:49 IST" depends-on-methods="tesngframework.Windows.loginPage" finished-at="2022-08-01T07:48:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheElementDisplayed -->
+        <test-method status="PASS" signature="VerifyTotalAmount()[pri:0, instance:tesngframework.Windows@91e32e]" name="VerifyTotalAmount" duration-ms="260" started-at="2022-08-01T07:48:49 IST" depends-on-methods="tesngframework.Windows.loginPage" finished-at="2022-08-01T07:48:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalAmount -->
+        <test-method status="PASS" signature="openWindow()[pri:0, instance:tesngframework.Windows@91e32e]" name="openWindow" duration-ms="19110" started-at="2022-08-01T07:48:49 IST" depends-on-methods="tesngframework.Windows.loginPage" finished-at="2022-08-01T07:49:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWindow -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tesngframework.Windows@91e32e]" name="closeBrowser" is-config="true" duration-ms="640" started-at="2022-08-01T07:49:15 IST" finished-at="2022-08-01T07:49:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tesngframework.Windows -->
+      <class name="tesngframework.HomePage">
+        <test-method status="PASS" signature="intilizeBrowser()[pri:0, instance:tesngframework.HomePage@d29f28]" name="intilizeBrowser" is-config="true" duration-ms="13519" started-at="2022-08-01T07:48:28 IST" finished-at="2022-08-01T07:48:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilizeBrowser -->
+        <test-method status="PASS" signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:tesngframework.HomePage@d29f28]" name="loginPage" duration-ms="5950" started-at="2022-08-01T07:49:08 IST" data-provider="getData" finished-at="2022-08-01T07:49:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seleniumnaveen570@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="suggetionBox()[pri:0, instance:tesngframework.HomePage@d29f28]" name="suggetionBox" duration-ms="730" started-at="2022-08-01T07:49:14 IST" finished-at="2022-08-01T07:49:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suggetionBox -->
+        <test-method status="PASS" signature="CheckBox()[pri:0, instance:tesngframework.HomePage@d29f28]" name="CheckBox" duration-ms="56" started-at="2022-08-01T07:49:15 IST" depends-on-methods="tesngframework.HomePage.loginPage" finished-at="2022-08-01T07:49:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBox -->
+        <test-method status="PASS" signature="DropDown()[pri:0, instance:tesngframework.HomePage@d29f28]" name="DropDown" duration-ms="61" started-at="2022-08-01T07:49:15 IST" depends-on-methods="tesngframework.HomePage.loginPage" finished-at="2022-08-01T07:49:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDown -->
+        <test-method status="PASS" signature="radioButton()[pri:0, instance:tesngframework.HomePage@d29f28]" name="radioButton" duration-ms="52" started-at="2022-08-01T07:49:15 IST" depends-on-methods="tesngframework.HomePage.loginPage" finished-at="2022-08-01T07:49:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButton -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tesngframework.HomePage@d29f28]" name="closeBrowser" is-config="true" duration-ms="618" started-at="2022-08-01T07:49:15 IST" finished-at="2022-08-01T07:49:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tesngframework.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
